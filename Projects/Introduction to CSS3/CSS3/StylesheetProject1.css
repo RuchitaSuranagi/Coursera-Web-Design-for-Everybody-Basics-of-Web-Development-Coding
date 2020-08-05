@@ -1,0 +1,50 @@
+
+
+body{
+	background: #000000;  
+	font-size: 130%;
+}
+
+header{
+	background: #AFEEEE; 
+	text-align: center;
+	height: 100px;
+	width: 800px;
+
+}
+
+h1{
+	color: #800080 ;
+	font-family: Courier;
+}
+
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Time New Roman";
+	font-size: 140%   
+	color: #9370DB;
+}
+
+h2{
+	color: black;
+	background: #FFC0CB;
+}
+
+summary{
+	font-style: normal;
+	color: #AFEEEE;
+	
+}
+
+details{
+	font-style: italic;
+	color: #FFC0CB;
+}
+
+section{
+	color: #de086b;
+}
+
+footer{
+	color: #a608da;
+}
