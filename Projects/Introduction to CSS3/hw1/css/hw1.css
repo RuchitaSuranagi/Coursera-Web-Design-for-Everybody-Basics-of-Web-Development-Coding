@@ -1,0 +1,38 @@
+
+
+header{
+	background: #C0C0C0;
+}
+
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: "sans-serif";
+}
+
+a{
+	color: #000000;
+	background: #D3D3D3;
+	font-weight: bold;
+}
+
+section{
+	background: #707070; 
+}
+
+h2{
+	color: #000080;
+	text-transform: uppercase;
+	font-size: 30px;
+
+}
+
+img{
+	display: none;
+}
+
+p{
+	font-family: "Times new roman";
+}
