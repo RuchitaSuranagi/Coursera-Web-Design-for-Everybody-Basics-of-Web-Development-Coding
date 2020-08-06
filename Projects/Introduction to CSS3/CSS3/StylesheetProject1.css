@@ -3,13 +3,15 @@
 body{
 	background: #000000;  
 	font-size: 130%;
+	margin: 14%;
 }
 
 header{
 	background: #AFEEEE; 
 	text-align: center;
-	height: 100px;
-	width: 800px;
+	/*height: 100px;
+	width: 800px;*/
+	padding: 5px;
 
 }
 
@@ -43,8 +45,18 @@ details{
 
 section{
 	color: #de086b;
+	width: 30%;
+	display: inline-block;
+	float:left;
+	margin-left:2.5%;
 }
+
 
 footer{
 	color: #a608da;
+	clear: both; /*to not let next elements to float i.e no inline*/
+}
+
+img{
+	width:150px;
 }
