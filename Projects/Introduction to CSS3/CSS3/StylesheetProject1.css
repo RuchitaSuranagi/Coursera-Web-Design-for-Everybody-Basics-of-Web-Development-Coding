@@ -12,7 +12,16 @@ header{
 	/*height: 100px;
 	width: 800px;*/
 	padding: 5px;
+	border: 2px solid #467813;
+	border-radius: 5px;
+}
 
+header, footer{
+	background: #AFEEEE;
+	background: -moz-linear-gradient(top, #AFEEEE  0%, #293f50 170%);
+	background: -webkit-linear-gradient(#AFEEEE, 0%, #293f50 170%);
+	background: -o-linear-gradient(#AFEEEE 0%, #293f50 170%);
+	background: linear-gradient(#AFEEEE 0%, #293f50  170%);
 }
 
 h1{
@@ -27,9 +36,16 @@ nav{
 	color: #9370DB;
 }
 
+nav a{
+	width: 20%;
+	display: inline-block;
+}
+
 h2{
 	color: black;
 	background: #FFC0CB;
+	border: 2px solid #467813;
+	border-radius: 5px;
 }
 
 summary{
@@ -43,20 +59,40 @@ details{
 	color: #FFC0CB;
 }
 
-section{
+.half{
 	color: #de086b;
 	width: 30%;
 	display: inline-block;
 	float:left;
-	margin-left:2.5%;
+	margin-left:13%;
+}
+
+.whole{ 
+	clear: both;
 }
 
 
 footer{
 	color: #a608da;
+	border-radius: 5px;
 	clear: both; /*to not let next elements to float i.e no inline*/
 }
 
 img{
 	width:150px;
 }
+
+a{
+	/*display: block;*/
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #cc8fe094;
+	width: 125px;
+	text-align: center;
+	padding: 2px;
+	text-decoration: none;
+
+}
+
+/*ul, ol {list-style-type: ;
+}*/
